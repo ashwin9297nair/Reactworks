@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color:#5d5e5f;
+  font-size:16px;
+}
+
+p{
+  line-height: 150%;
+  font-weight: 300;
+  font-size: 17px;
+}
+a{
+  color: #027be8;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+}
+
+.custom-height{
+  margin-top: -20px;
+}
+
+.custom-border{
+  border: none;
+  border-top: 1px dotted rgb(248, 72, 72);
+  height: 1px;
+
+}
+
+@media only screen and (max-width: 798px) {
+  .custom-height{
+    margin-top: 20px;
+  }
+}
