@@ -1,0 +1,97 @@
+.ps-customMarginLeft{
+ margin-left: 140px;
+}
+.ps-customImg{
+ width: 100%;
+ height:auto;
+ padding: 12px;
+}
+.ps-customIcon{
+ width: 30px;
+ height:auto;
+}
+.ps-customIcon1{
+ width: 34px;
+ height:auto;
+}
+.ps-buttonCustom{
+ width: 60px !important;
+ height: 60px !important;
+ margin-right: 5px;
+}
+.ps-custom-icon{
+ width: 70px !important;
+ height: 70px !important;
+}
+.ps-custom-button{
+ outline: none;
+ padding: 5px 0px !important;
+ border-radius: 4px;
+}
+.ps-custom-button-1{
+ outline: none;
+ padding: 8px !important;
+ border-radius: 4px;
+}
+.p-inputtext{
+ outline: none !important;
+ height: 32px;
+ 
+}
+
+.ps-inputtext-color{
+ background: #e6e7e9;
+ /* border:none; */
+ border-radius: 4px;
+}
+
+.p-dropdown-inputtext{
+ top: 3px !important;
+ /* height: 38px; */
+ border-radius: 4px;
+}
+.ps-custom-box{
+ background-color: #eff3f8;
+ padding: 20px;
+ text-align: left;
+ border-radius: 6px;
+ border: none;
+}
+.ps-custom-box:hover{
+ background-color: #d5dde7;
+}
+
+.ps-custom-box-1{
+ background-color: #d5dde7;
+ padding: 20px;
+ text-align: left;
+ border-radius: 6px;
+ border: none;
+ margin-left: 10px;
+}
+.ps-custom-box-2{
+ margin-bottom: 25px;
+ border-radius: 6px;
+ border: solid 1px #dadbde;
+ padding: 20px;
+}
+
+.ps-custom-box-3{
+ background-color: #f3f3ff;
+ padding: 20px 20px 5px 20px;
+ text-align: left;
+ border-radius: 6px;
+ border: solid 1px #dedffc;
+}
+
+
+.ps-custom-box-4{
+ margin-bottom: 25px;
+ border-radius: 6px;
+ border: solid 1px #dadbde;
+ padding: 0px;
+}
+.p-tabview-nav-link{
+ height: 45px;
+ font-weight: 500 !important;
+}
