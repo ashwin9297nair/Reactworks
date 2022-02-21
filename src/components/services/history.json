@@ -1,0 +1,382 @@
+[
+ {
+     "date": "1/27/2022, 5:30:19 PM",
+     "network": "polygon",
+     "type": "Send",
+     "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+     "amount": -0.001,
+     "coin": "USDC",
+     "gas": 0.00015882000190584,
+     "hash": "0xc18ad5257a212695e6d3a41c909a95fd19a05a7437f4e0f00757ce3d7a500a39"
+ },
+ {
+     "date": "1/19/2022, 11:09:16 AM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x096bbfb78311227b805c968b070a81d358c13379",
+     "amount1": 0.02444775,
+     "coin1": "MEMO",
+     "amount2": -0.02444775,
+     "coin2": "TIME",
+     "gas": 0.00597558,
+     "hash": "0x100eef34ed198b210693da09a9ce22a360918827018da2f3a06b0259ac82e30e"
+ },
+ {
+     "date": "1/19/2022, 11:07:58 AM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+     "amount1": 0.02444775,
+     "coin1": "TIME",
+     "amount2": -0.3635,
+     "coin2": "AVAX",
+     "gas": 0.003555825,
+     "hash": "0x4891411545b0e081b5bc1ffa924e893da0cd1a3901ff082d60e898f587c42e1d"
+ },
+ {
+     "date": "1/19/2022, 10:55:32 AM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9",
+     "amount": 0.45565702,
+     "coin": "AVAX",
+     "hash": "0x24cdc6a9fe79baae3a12c9586bc9a4db98d3fe7a77788dd35b1249a74342d0f6"
+ },
+ {
+     "date": "1/19/2022, 10:48:23 AM",
+     "network": "avalanche",
+     "type": "Send",
+     "address": "0x9842af7f67d4dec3d151ccc2ac53966b40c9af9c",
+     "amount": -0.1,
+     "coin": "AVAX",
+     "gas": 0.000525,
+     "hash": "0x6f5248f4cd5845327ecad8e9eda39e8d2d6e7e562fe4af7ac6fdcd8a411378a3"
+ },
+ {
+     "date": "1/16/2022, 5:03:37 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x096bbfb78311227b805c968b070a81d358c13379",
+     "amount1": 0.013265777,
+     "coin1": "MEMO",
+     "amount2": -0.013265777,
+     "coin2": "TIME",
+     "gas": 0.00597522,
+     "hash": "0x3e6b7dd697aa96d0e992ce138d3e7ca8514b2eef2facd0e0936117e66d9ae032"
+ },
+ {
+     "date": "1/16/2022, 5:02:54 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount1": 0.013265777,
+     "coin1": "TIME",
+     "amount2": -0.3,
+     "coin2": "AVAX",
+     "gas": 0.0050337,
+     "hash": "0xd896dfdf88b71cadbc47222af4336a28f9f816cb4e4b3cbf95c02e760d36cfe0"
+ },
+ {
+     "date": "1/16/2022, 5:01:45 PM",
+     "network": "avalanche",
+     "type": "Send",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount": -0.761792381,
+     "coin": "ICY",
+     "gas": 0.005444475,
+     "hash": "0x06101e3194a14195153276f32685bd6ca9c78f0416b145f40a19cfb645582e84"
+ },
+ {
+     "date": "1/16/2022, 4:49:19 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0xbde1c85c9faa18bc6e8eda1e2d813e63f86fd145",
+     "amount1": 0.79353373,
+     "coin1": "ICY",
+     "amount2": -0.79353373,
+     "coin2": "GLAZE",
+     "gas": 0.0023003,
+     "hash": "0x85208bd8bedf1c4adf63eaf3c1170a8129029a6e1abef49e443589b8dc727563"
+ },
+ {
+     "date": "1/15/2022, 6:58:16 AM",
+     "network": "polygon",
+     "type": "Receive",
+     "address": "0x0b91b07beb67333225a5ba0259d55aee10e3a578",
+     "amount": 300000,
+     "coin": "MNEP",
+     "hash": "0x0201ba786a01b5729ff4a8b73403823ac7dd5ffb086a22f023fbaeb55432f767"
+ },
+ {
+     "date": "1/12/2022, 11:08:32 AM",
+     "network": "polygon",
+     "type": "Exchange",
+     "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+     "amount1": 0.002295,
+     "coin1": "USDC",
+     "amount2": -0.001,
+     "coin2": "MATIC",
+     "gas": 0.00584727,
+     "hash": "0x53c742f07d63fce652748f8aa8082138f41056acef5fcfa4738733a0567834cd"
+ },
+ {
+     "date": "1/12/2022, 10:15:35 AM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x2d74c87461f08b0914fcc5194be006209c6f7c5a",
+     "amount": 0.716832505,
+     "coin": "GLAZE",
+     "hash": "0x32b075343d05462cc078b8468698806f2c58eb1611ea89c07aa179f28f4e228a"
+ },
+ {
+     "date": "1/11/2022, 10:53:22 AM",
+     "network": "avalanche",
+     "type": "Send",
+     "address": "0x4e32a7b8052577f0352321dd8cc50a751b06d9da",
+     "amount": -0.700538635,
+     "coin": "ICY",
+     "gas": 0.005377975,
+     "hash": "0x57e9a6d54c52c56fd12e3483d880b296afacdc9b65f13143a6b74a0b921b5236"
+ },
+ {
+     "date": "1/11/2022, 10:25:12 AM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0xbde1c85c9faa18bc6e8eda1e2d813e63f86fd145",
+     "amount1": 0.700538635,
+     "coin1": "ICY",
+     "amount2": -0.700538635,
+     "coin2": "GLAZE",
+     "gas": 0.0023003,
+     "hash": "0x1af00353803f648dfa8ae9ad52b9ec8d97d608ac67ddadd3fcc3f52347c9ecc4"
+ },
+ {
+     "date": "1/8/2022, 12:06:22 PM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x2d74c87461f08b0914fcc5194be006209c6f7c5a",
+     "amount": 0.63212857,
+     "coin": "GLAZE",
+     "hash": "0x1fc9c22a7a0a1623be7d659d4d04834e1e5b090ea10b2f6d344d3b2913bfac63"
+ },
+ {
+     "date": "1/7/2022, 7:27:54 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x096bbfb78311227b805c968b070a81d358c13379",
+     "amount1": 0.020835987,
+     "coin1": "MEMO",
+     "amount2": -0.020835987,
+     "coin2": "TIME",
+     "gas": 0.00597558,
+     "hash": "0xf9289359764510ad9dbd27bb1d0eb84763fb405efd2f21c8a9d8a83fb5f22ac3"
+ },
+ {
+     "date": "1/7/2022, 7:21:53 PM",
+     "network": "avalanche",
+     "type": "Send",
+     "address": "0x4e32a7b8052577f0352321dd8cc50a751b06d9da",
+     "amount": -0.611093647,
+     "coin": "ICY",
+     "gas": 0.005377975,
+     "hash": "0xe1119c9d470fcca80c1082a2b32eac78572632f5ed040636eab9010f1ecbf8de"
+ },
+ {
+     "date": "1/7/2022, 7:20:47 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount1": 0.020835987,
+     "coin1": "TIME",
+     "amount2": -0.6,
+     "coin2": "AVAX",
+     "gas": 0.003556425,
+     "hash": "0xa460fcebb424c1816932cb51218bbf0340cd04351d9f0011266e7bd3413e4a25"
+ },
+ {
+     "date": "1/7/2022, 7:19:39 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount1": 0.611093647,
+     "coin1": "ICY",
+     "amount2": -1,
+     "coin2": "AVAX",
+     "gas": 0.005239941843544984,
+     "hash": "0x9145f1de051da7e2baf09bef2c6293ecfd6c9e2d82cab68ba0d8b6874f8b05c7"
+ },
+ {
+     "date": "1/7/2022, 7:14:50 PM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9",
+     "amount": 1.92256758,
+     "coin": "AVAX",
+     "hash": "0x6ec72b3f3eab5d8ac87ca739551782826e3a31b3d0b8f5c82bb4ac75556a5b8b"
+ },
+ {
+     "date": "12/29/2021, 2:59:43 PM",
+     "network": "binance-smart-chain",
+     "type": "Send",
+     "address": "0x9842af7f67d4dec3d151ccc2ac53966b40c9af9c",
+     "amount": -0.02301882,
+     "coin": "BNB",
+     "gas": 0.000105,
+     "hash": "0x0070cb7dee3f9a701c7ff40e31347312f4eebc9a6b7d8e01c49a138f859f09ff"
+ },
+ {
+     "date": "12/27/2021, 12:30:24 PM",
+     "network": "avalanche",
+     "type": "Send",
+     "address": "0x9842af7f67d4dec3d151ccc2ac53966b40c9af9c",
+     "amount": -0.9481661381142912,
+     "coin": "AVAX",
+     "gas": 0.000525,
+     "hash": "0x84789b9432633e53680f59e341ad8240c5da55ff28b46428c1a688d254a105bc"
+ },
+ {
+     "date": "12/27/2021, 12:28:31 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount1": 0.025595366,
+     "coin1": "TIME",
+     "amount2": -0.9111380311061809,
+     "coin2": "AVAX",
+     "gas": 0.00501445,
+     "hash": "0x6d85e3e1dfda4f97da521cfd0bebba2be11f3b7211df54697a79d98d132ff89b"
+ },
+ {
+     "date": "12/27/2021, 12:19:19 PM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9",
+     "amount1": 0.025595366,
+     "coin1": "TIME",
+     "amount2": -0.025595366,
+     "coin2": "MEMO",
+     "gas": 0.00252957,
+     "hash": "0xbf7594115a27489525fad810384ab43a87f3567f0349478fbd39f87bbdc8e35e"
+ },
+ {
+     "date": "12/20/2021, 8:38:14 PM",
+     "network": "binance-smart-chain",
+     "type": "Receive",
+     "address": "0x2ba6204c23fbd5698ed90abc911de263e5f41266",
+     "amount": 166574,
+     "coin": "KK8.io",
+     "hash": "0x9c823d72f9342066bbd1114a951711b32b80baa98fe48f5db0ece2acd5645f76"
+ },
+ {
+     "date": "12/20/2021, 8:35:56 PM",
+     "network": "binance-smart-chain",
+     "type": "Send",
+     "address": "0xf9736ec3926703e85c843fc972bd89a7f8e827c0",
+     "amount": -18.23870999,
+     "coin": "anyFTM",
+     "gas": 0.000295,
+     "hash": "0x8a45875348419152758d46fbec0e2f45a165593d3f8e4574c54a37e64d93ce61"
+ },
+ {
+     "date": "12/20/2021, 8:34:44 PM",
+     "network": "binance-smart-chain",
+     "type": "Receive",
+     "address": "0xeb2d2f1b8c558a40207669291fda468e50c8a0bb",
+     "amount": 0.02365458,
+     "coin": "BNB",
+     "hash": "0x671c1161c5ecf4b47c3254be47bfbd987a794ef098d5f8c7f08c1183942768b0"
+ },
+ {
+     "date": "12/20/2021, 8:13:42 PM",
+     "network": "binance-smart-chain",
+     "type": "Receive",
+     "address": "0x8894e0a0c962cb723c1976a4421c95949be2d4e3",
+     "amount": 18.23870999,
+     "coin": "FTM",
+     "hash": "0xb259a6bfa3f9d9dfffe0a9d6efb78c8b34db82d7a89f574577d9c48d04618372"
+ },
+ {
+     "date": "12/17/2021, 5:52:24 PM",
+     "network": "polygon",
+     "type": "Exchange",
+     "address": "0x4d70a031fc76da6a9bc0c922101a05fa95c3a227",
+     "amount1": 0.061881693,
+     "coin1": "sKLIMA",
+     "amount2": -0.061881693,
+     "coin2": "KLIMA",
+     "gas": 0.00368274,
+     "hash": "0x6bbac893a3410a02c8c006d07c92d4fa50d7a17c10cad59176f3fae408176537"
+ },
+ {
+     "date": "12/17/2021, 5:51:12 PM",
+     "network": "polygon",
+     "type": "Exchange",
+     "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+     "amount1": 0.061881693,
+     "coin1": "KLIMA",
+     "amount2": -11,
+     "coin2": "MATIC",
+     "gas": 0.00581241,
+     "hash": "0xaf8d90ba8c81f15b1637b421ecf35c741276215fc1cade8aab8a40f68405b604"
+ },
+ {
+     "date": "12/17/2021, 5:49:38 PM",
+     "network": "polygon",
+     "type": "Receive",
+     "address": "0xe7804c37c13166ff0b37f5ae0bb07a3aebb6e245",
+     "amount": 12.15533676,
+     "coin": "MATIC",
+     "hash": "0xfb71754f2cc68455fc5bca0cdf84e8ecd68db3050f430268a803684216c93f49"
+ },
+ {
+     "date": "12/10/2021, 10:47:13 AM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x096bbfb78311227b805c968b070a81d358c13379",
+     "amount1": 0.018658232,
+     "coin1": "MEMO",
+     "amount2": -0.018658232,
+     "coin2": "TIME",
+     "gas": 0.00648858,
+     "hash": "0xff1ae31d324917cf53788ced89f83e5b6f8f95f4689116814ea04e960cb298ea"
+ },
+ {
+     "date": "12/10/2021, 10:44:40 AM",
+     "network": "avalanche",
+     "type": "Exchange",
+     "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+     "amount1": 0.007116675,
+     "coin1": "TIME",
+     "amount2": -0.35,
+     "coin2": "AVAX",
+     "gas": 0.003128625,
+     "hash": "0xa18944aaf0f0b7106240e4545015911d44b82e03ca4c3115693ca522a7ff6185"
+ },
+ {
+     "date": "12/10/2021, 10:41:54 AM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9",
+     "amount": 0.40879282,
+     "coin": "AVAX",
+     "hash": "0x4041f2cd1f35d658d023943a92b6e3cbe8a8cab45fc8cd5196c72e2efaee795e"
+ },
+ {
+     "date": "12/10/2021, 10:13:23 AM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x8cfa2784ea6cfddab0af3066b999577bef750503",
+     "amount": 0.000667227008110344,
+     "coin": "AVAX",
+     "hash": "0xde537ede0077ddf9cba6ec441b035af4652b2f67e566c927ae9714953a834518"
+ },
+ {
+     "date": "12/10/2021, 10:07:48 AM",
+     "network": "avalanche",
+     "type": "Receive",
+     "address": "0x8cfa2784ea6cfddab0af3066b999577bef750503",
+     "amount": 0.011541557,
+     "coin": "TIME",
+     "hash": "0x7e84dc289671fe40b698a9d804710e3b97acc6fe5bb2f86a0e54d9c2a6475702"
+ }
+]

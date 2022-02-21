@@ -10,6 +10,10 @@
  width: 30px;
  height:auto;
 }
+.ps-customIconTable{
+ width: 20px;
+ height:auto;
+}
 .ps-customIcon1{
  width: 34px;
  height:auto;
@@ -25,14 +29,15 @@
 }
 .ps-custom-button{
  outline: none;
- padding: 5px 0px !important;
+ padding: 5px 7px !important;
  border-radius: 4px;
 }
 .ps-custom-button-1{
  outline: none;
  padding: 8px !important;
- border-radius: 4px;
+ border-radius: 3px;
 }
+
 .p-inputtext{
  outline: none !important;
  height: 32px;
@@ -95,3 +100,52 @@
  height: 45px;
  font-weight: 500 !important;
 }
+
+.p-fieldset {
+ border: 1px solid #dee2e6;
+ background: #ffffff;
+ color: #495057;
+ border-radius: 3px;
+}
+
+.p-fieldset .p-fieldset-legend {
+ padding: 0 !important;
+ font-size: 15px;
+ border: 0px solid #e6dede;
+ color: #ffffff;
+ background: #6366f1;
+ font-weight: 700;
+ border-radius: 3px;
+}
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
+ padding: 10px;
+ color: #ffffff;
+ border-radius: 0px;
+ font-size: 14px;
+ font-weight: 500;
+ transition: box-shadow 0.2s;
+}
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:hover {
+ color: #5a5a5a;
+}
+
+.p-dialog .p-dialog-header {
+ border-bottom: 0 none;
+ background: #ffffff;
+ color: #343a40;
+ padding: 1.5rem;
+ border-top-right-radius: 4;
+ border-top-left-radius: 4px;
+}
+
+.p-dialog .p-dialog-footer {
+ border-top: 0 none;
+ background: #ffffff;
+ color: #495057;
+ padding: 0 1.5rem .3rem 1.5rem;
+ text-align: right;
+ border-bottom-right-radius: 4px;
+ border-bottom-left-radius: 4px;
+}
+
+

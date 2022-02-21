@@ -4,6 +4,7 @@ import TopComponentOne from './TopComponentOne';
 import TokenButtonComponent from './TokenButtonComponent';
 import TokenComponentOne from './TokenComponentOne';
 import Sidemenu from './Sidemenu';
+import Transaction from './Transaction';
 
 const Dashboard = () => {
 
@@ -18,6 +19,7 @@ const Dashboard = () => {
     <TokenComponentOne />
     
     <TopComponentOne />
+    {/* <Transaction /> */}
    </div>
 
   </>
