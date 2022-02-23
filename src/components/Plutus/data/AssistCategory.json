@@ -1,0 +1,13 @@
+[{"id":"stablecoins","name":"Stablecoins","desc":"These are stablecoins "},
+ {"id":"defi-index","name":"DeFi Index","desc":"These are defi-index"},
+ {"id":"decentralized-exchange","name":"Decentralized Exchange Token (DEX)","desc":"These are decentralized-exchange"},
+ {"id":"centralized-exchange-token-cex","name":"Centralized Exchange Token (CEX)","desc":"These are centralized-exchange-token-cex"},
+ {"id":"metaverse","name":"Metaverse","desc":"These are metaverse"},
+ {"id":"non-fungible-tokens-nft","name":"Non-Fungible Tokens (NFT)","desc":"These are non-fungible-tokens-nft"},
+ {"id":"meme-token","name":"Meme Tokens","desc":"These are meme-token"},
+ {"id":"yield-farming","name":"Yield Farming","desc":"These are yield-farming"},
+ {"id":"smart-contract-platform","name":"Smart Contract Platform","desc":"These are smart-contract-platform"},
+ {"id": "governance","name": "Governance","desc":"These are smart-contract-platform"}
+ 
+ ]
+  

@@ -4,7 +4,6 @@ import TopComponentOne from './TopComponentOne';
 import TokenButtonComponent from './TokenButtonComponent';
 import TokenComponentOne from './TokenComponentOne';
 import Sidemenu from './Sidemenu';
-import Transaction from './Transaction';
 
 const Dashboard = () => {
 
@@ -12,14 +11,18 @@ const Dashboard = () => {
   <>
   <Sidemenu />
    <div className='ps-customMarginLeft p-mt-3'>
-    <TopComponent />
+    {/* <TopComponent /> */}
     
-    <TokenButtonComponent />
+    {/* <TokenButtonComponent /> */}
     <br />
-    <TokenComponentOne />
+    {/* <TokenComponentOne /> */}
     
     <TopComponentOne />
-    {/* <Transaction /> */}
+
+
+ 
+
+
    </div>
 
   </>
