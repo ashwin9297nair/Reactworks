@@ -36,11 +36,11 @@ function App() {
   return (
 
     <>
-      <div>
+      {/* <div>
         <Switch>
           <Route exact path="/assist" component={Assist} render={() => <Assist APIdata={categData} chartdata={chartData} trenddata={trendData} />} />
         </Switch>
-      </div>
+      </div> */}
 
 
       <Dashboard />

@@ -29,7 +29,7 @@ const TopComponent = () => {
  return (
   <div>
 
-   <div className="dialog-demo" >
+   <div className="dialog-demo mt-" >
     <div className="card">
      <Dialog header="Blockchain" visible={displayBasic} footer={renderFooter('displayBasic')} onHide={() => onHide('displayBasic')}>
       <div className='flex align-items-center justify-content-center'>

@@ -41,9 +41,19 @@
 .p-inputtext{
  outline: none !important;
  height: 32px;
- 
 }
 
+.p-dropdown {
+ background: #ffffff;
+ border: 1px solid #ced4da;
+ transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+ border-radius: 4px;
+}
+
+.p-placeholder{
+ margin-top: -7px;
+ height: 40px;
+}
 .ps-inputtext-color{
  background: #e6e7e9;
  /* border:none; */
@@ -84,6 +94,14 @@
 .ps-custom-box-3{
  background-color: #f3f3ff;
  padding: 20px 20px 5px 20px;
+ text-align: left;
+ border-radius: 6px;
+ border: solid 1px #dedffc;
+}
+
+.ps-custom-box-5{
+ background-color: #f3f3ff;
+ padding: 10px 20px;
  text-align: left;
  border-radius: 6px;
  border: solid 1px #dedffc;
@@ -148,4 +166,6 @@
  border-bottom-left-radius: 4px;
 }
 
-
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+ padding: .9rem;
+}

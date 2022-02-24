@@ -4,23 +4,24 @@ import TopComponentOne from './TopComponentOne';
 import TokenButtonComponent from './TokenButtonComponent';
 import TokenComponentOne from './TokenComponentOne';
 import Sidemenu from './Sidemenu';
+import DashboardIn from './DashboardIn';
 
 const Dashboard = () => {
 
  return (
   <>
   <Sidemenu />
-   <div className='ps-customMarginLeft p-mt-3'>
-    {/* <TopComponent /> */}
+   <div className='ps-customMarginLeft'>
+    <TopComponent />
     
     {/* <TokenButtonComponent /> */}
+    <DashboardIn />
     <br />
     {/* <TokenComponentOne /> */}
     
-    <TopComponentOne />
+    {/* <TopComponentOne /> */}
 
 
- 
 
 
    </div>
