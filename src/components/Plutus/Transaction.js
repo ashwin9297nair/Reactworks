@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 // import { axios } from 'primereact/axios'
-import { Card } from 'primereact/card';
-import { ProgressBar } from 'primereact/progressbar';
-import { Dropdown } from 'primereact/dropdown';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Toast } from 'primereact/toast';
 import { Button } from 'primereact/button';

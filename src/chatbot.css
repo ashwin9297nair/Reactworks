@@ -1,0 +1,112 @@
+.genkDf {
+ background: #d67373 !important;
+ border-radius: 12px !important;
+ box-shadow: 0 0px 0px 0 rgb(0 0 0 / 15%) !important;
+ overflow: hidden;
+ position: fixed;
+ border: solid 1px #e6ecf2;
+ bottom: 24px !important;
+ top: initial;
+ right: 24px !important;
+ left: initial;
+ width: 350px;
+ height: 520px;
+ z-index: 999;
+ -webkit-transform: scale(1);
+ -ms-transform: scale(1);
+ transform: scale(1);
+ -webkit-transform-origin: bottom right;
+ -ms-transform-origin: bottom right;
+ transform-origin: bottom right;
+ -webkit-transition: -webkit-transform 0.3s ease;
+ -webkit-transition: transform 0.3s ease;
+ transition: transform 0.3s ease;
+}
+.kAMCVN {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #6366f1 !important;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    fill: #fff;
+    height: 42px !important;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 10px 0 15px !important;
+}
+
+.gQrkcm {
+ -webkit-animation: gZmgDU 0.3s ease forwards;
+ animation: gZmgDU 0.3s ease forwards;
+ background: #6366f1 !important;
+ border-radius: 10px 10px 10px 0 !important;
+ box-shadow: 0 0px 0px 0 rgb(0 0 0 / 15%) !important;
+ color: #fff;
+ display: inline-block;
+ font-size: 13px !important;
+ max-width: 50%;
+ margin: 0 0 10px 0;
+ overflow: hidden;
+ position: relative;
+ padding: 8px 13px !important;
+ -webkit-transform: scale(0);
+ -ms-transform: scale(0);
+ transform: scale(0);
+ -webkit-transform-origin: bottom left;
+ -ms-transform-origin: bottom left;
+ transform-origin: bottom left;
+}
+
+.cgWeFu {
+ background: #6366f1 !important;
+ border: 0;
+ border-radius: 10px !important;
+ box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+ color: #fff;
+ display: inline-block;
+ font-size: 14px;
+ padding: 12px;
+}
+
+.dzjMYl {
+    border: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #eee;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    opacity: 1;
+    outline: none;
+    padding: 12px !important;
+    width: 100%;
+    -webkit-appearance: none;
+    margin-bottom: 50px !important;
+}
+
+.dlHUTf {
+ background-color: transparent;
+ border: 0;
+ border-bottom-right-radius: 10px;
+ box-shadow: none;
+ cursor: pointer;
+ fill: #4a4a4a;
+ opacity: 1;
+ outline: none;
+ padding: 10px !important;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+
+.rsc-footer{
+ margin-top: 24px !important;
+}

@@ -1,0 +1,27 @@
+.ps-transfer-box{
+ border-radius: 6px;
+ border: solid 1px #dadbde;
+ /* padding: 20px; */
+}
+
+.ps-transfer-box-border{
+ border-bottom: solid 1px #dadbde;
+ /* padding: 20px; */
+}
+
+.p-t-inputtext{
+ outline: none !important;
+ height: auto;
+}
+
+.p-dropdown-filter{
+ height: 38px !important;
+}
+
+.ps-swap-box-border{
+ border: solid 1px #dadbde;
+ padding: 10px;
+ border-radius: 6px;
+ cursor: pointer;
+ /* padding: 20px; */
+}

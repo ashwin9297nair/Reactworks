@@ -8,28 +8,28 @@ const TopComponent = () => {
   'displayBasic': setDisplayBasic
  }
 
- const onClick = (name, position) => {
-  dialogFuncMap[`${name}`](true);
+//  const onClick = (name, position) => {
+//   dialogFuncMap[`${name}`](true);
 
- }
+//  }
 
- const onHide = (name) => {
-  dialogFuncMap[`${name}`](false);
- }
+//  const onHide = (name) => {
+//   dialogFuncMap[`${name}`](false);
+//  }
 
- const renderFooter = (name) => {
-  return (
-   <div>
-    {/* <div className="p-button ps-custom-button p-button-sm"><span className="p-button-icon p-c pi pi-credit-card" style={{ 'fontSize': '20px' }} onClick={() => onHide(name)}></span></div> */}
-   </div>
-  );
- }
+//  const renderFooter = (name) => {
+//   return (
+//    <div>
+//     <div className="p-button ps-custom-button p-button-sm"><span className="p-button-icon p-c pi pi-credit-card" style={{ 'fontSize': '20px' }} onClick={() => onHide(name)}></span></div>
+//    </div>
+//   );
+//  }
 
 
  return (
   <div>
 
-   <div className="dialog-demo mt-" >
+   {/* <div className="dialog-demo" >
     <div className="card">
      <Dialog header="Blockchain" visible={displayBasic} footer={renderFooter('displayBasic')} onHide={() => onHide('displayBasic')}>
       <div className='flex align-items-center justify-content-center'>
@@ -38,10 +38,10 @@ const TopComponent = () => {
       
       <br />
       <br />
-      <input type="text" className="p-inputtext p-button-sm p-ml-1 text-xs" placeholder='ENTER YOUR EMAIL ADDRESS' />
+      <input type="text" className="p-inputtext p-inputtext-sm p-ml-1 text-xs" placeholder='ENTER YOUR EMAIL ADDRESS' />
      </Dialog>
     </div>
-   </div>
+   </div> */}
 
    <div className="p-grid p-p-0 p-mr-6">
     <div className="p-col-6 flex align-items-center">
@@ -54,7 +54,7 @@ const TopComponent = () => {
      </div>
      <div>
 
-      <div onClick={() => onClick('displayBasic')} class="transition-colors transition-duration-500 hover:bg-indigo-100 ml-4 border-1 border-300 border-round
+      {/* <div onClick={() => onClick('displayBasic')} class="transition-colors transition-duration-500 hover:bg-indigo-100 ml-4 border-1 border-300 border-round
     flex align-items-center justify-content-center font-bold border-round cursor-pointer px-3 py-2">
 
        <div className="p-mr-2">
@@ -63,7 +63,7 @@ const TopComponent = () => {
        <div>
         <strong className='text-md text-900 font-light'>Account0x2d74c87461F... </strong>
        </div>
-      </div>
+      </div> */}
      </div>
 
     </div>
@@ -76,8 +76,9 @@ const TopComponent = () => {
        <div className="inline ">
         <div className="p-button ps-custom-button p-button-sm"><span className="p-button-icon p-c pi pi-credit-card" style={{ 'fontSize': '20px' }}></span></div>
        </div>
-       <div className="inline">
-        <input type="text" className="p-inputtext p-button-sm ps-inputtext-color p-ml-1 text-sm" value="Search Tokens" />
+       <div className="inline p-input-icon-right">
+        <input type="text" className="p-inputtext ps-inputtext-custom surface-100 p-inputtext-sm ps-inputtext-color p-ml-1 text-sm" value="Search Tokens" />
+        <i className="pi pi-search" />
        </div>
       </div>
      </div>

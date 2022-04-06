@@ -5,29 +5,50 @@ import TokenButtonComponent from './TokenButtonComponent';
 import TokenComponentOne from './TokenComponentOne';
 import Sidemenu from './Sidemenu';
 import DashboardIn from './DashboardIn';
+import Transfer from './Transfer'
+import Swap from './Swap';
+import ChtBot from './ChtBot';
+import PlutusLanding from './PlutusLanding';
+import CreateFund from './CreateFund';
+import Funds from './Funds';
+import AboutUs from './AboutUs';
+import SignUp from './SignUp';
+import SignIn from './SignIn';
+import ProfileSettings from '../Setting/ProfileSettings';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Dashboard = () => {
 
- return (
-  <>
-  <Sidemenu />
-   <div className='ps-customMarginLeft'>
-    <TopComponent />
-    
-    {/* <TokenButtonComponent /> */}
-    <DashboardIn />
+  return (
+    <>
+      {/* <PlutusLanding /> */}
+
+      {/* <SignIn /> */}
+      {/* <SignUp /> */}
+      {/* <AboutUs /> */}
+      <Sidemenu />
+      <div className='ps-customMarginLeft'>
+        <ProfileSettings />
+        {/* <TopComponent /> */}
+        {/* <TokenButtonComponent /> */}
+        {/* <DashboardIn />  */}
     <br />
     {/* <TokenComponentOne /> */}
-    
-    {/* <TopComponentOne /> */}
+
+        {/* <TopComponentOne /> 
+
+        {/* <Transfer /> */}
+        {/* <ChtBot /> */}
+        {/* <Swap /> */}
+
+        {/* <CreateFund /> */}
+        {/* <Funds /> */}
 
 
+      </div>
 
-
-   </div>
-
-  </>
- )
+    </>
+  )
 }
 
 

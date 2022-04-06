@@ -1,6 +1,9 @@
 import './App.css';
 import './plutus.css';
+import './setting.css';
+import './transfer.css';
 import './temp.css'
+import './chatbot.css'
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 // import MyNav from './components/navbar/MyNav';
@@ -10,27 +13,12 @@ import { UpcomingEvents } from './components/UpcomingEvents';
 // import  React from 'react';
 import { useState, useEffect } from 'react';
 import { Link, Redirect, Route, Switch, withRouter } from 'react-router-dom';
-import { AssistAPI } from './components/Plutus/AssistAPI';
-import { trendAPI } from './components/Plutus/AssistAPI';
-import Assist from './components/Plutus/AssistedPage';
 
 
 function App() {
   const [chartData, setchartData] = useState([]);
   const [trendData, settrendData] = useState([]);
   const [categData, setcategData] = useState([]);
-
-  useEffect(() => {
-
-    const funct = async () => {
-      const categdata = await AssistAPI()
-      const [chartdata, trenddata] = await trendAPI()
-      setchartData(chartdata)
-      settrendData(trenddata)
-      setcategData(categdata)
-    }
-    funct()
-  }, [])
 
 
   return (
@@ -47,10 +35,9 @@ function App() {
 
       {/* <MyNav /> */}
       {/* <Banner /> */}
-      <br /><br />
       {/* <TabViewDemo /> */}
       {/* <UpcomingEvents /> */}
-      <br /><br />
+
       {/* <Footer /> */}
 
 
