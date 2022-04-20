@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
+import img1 from '../../assets/profile.png'
+import { Dialog } from 'primereact/dialog';
 
 const ManagerSettings = () => {
     const [name, setName] = useState('');
@@ -8,7 +10,29 @@ const ManagerSettings = () => {
     const [email, setEmail] = useState('');
     const [website, setWebsite] = useState('');
     const [desc, setDesc] = useState('');
+    const [position, setPosition] = useState('center');
     const [selectedImage, setSelectedImage] = useState(null);
+    const [displayBasic, setDisplayBasic] = useState(false);
+    const [displayBasic2, setDisplayBasic2] = useState(false);
+    const [displayBasic3, setDisplayBasic3] = useState(false);
+    
+    const dialogFuncMap = {
+        'displayBasic': setDisplayBasic,
+        'displayBasic2': setDisplayBasic2,
+        'displayBasic3': setDisplayBasic3,
+
+    }
+    const onClick = (name, position) => {
+        dialogFuncMap[`${name}`](true);
+
+        if (position) {
+            setPosition(position);
+        }
+    }
+
+    const onHide = (name) => {
+        dialogFuncMap[`${name}`](false);
+    }
 
     return (
         <>
@@ -20,39 +44,50 @@ const ManagerSettings = () => {
             </div>
             <div></div>
             <InputText value={name} onChange={(e) => setName(e.target.value)} placeholder='Username' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
-            <div>
-
-                <div className='flex align-items-center justify-content-start'>
-                    <div className='mr-4'>
-                        <img src='./images/upload_img.png' />
-                    </div>
-                    <div className='mr-4'>
-                        <Button label="Change photo" icon="pi pi-file" className='p-button p-button-sm p-button-secondary py-2 px-2' />
-                    </div>
-                    <div>
-                        <Button label="Remove" className='p-button font-light p-button-danger p-button-text py-2 px-2' />
-                    </div>
+           
+            <div className='flex align-items-center justify-content-start'>
+                <div className='mr-4 '>
+                        <img src={img1} className='imagecircle' /> 
+ 
                 </div>
+                <div className='mr-4'>
+                    <Button label="Change picture" className='p-button p-button-sm p-button-secondary py-2 px-2' onClick={() => onClick('displayBasic3')} />
+                </div>
+                <Dialog header="Change picture" visible={displayBasic3} style={{ width: '50vw' }} onHide={() => onHide('displayBasic3')}>
+                    <div >
 
-                {/* {selectedImage && (
-                    <div>
-                        <img alt="not fount" width={"250px"} src={URL.createObjectURL(selectedImage)} />
-                        <button onClick={() => setSelectedImage(null)}>Remove</button>
+                        <div className="flex justify-content-center mt-2">
+                            <button class="file btn-primary p-button ps-custom-button-1 p-component p-button-sm mr-1" style={{ "position": "relative", "overflow": "hidden" }}>
+                                Upload File
+                                <InputText type="file"
+                                    name="myImage"
+                                    accept="image/*"
+                                    style={{ "position": "absolute", "opacity": "0", "top": "0", "right": "0" }} />
+                            </button>
+                        </div>
+                        <br />
+
                     </div>
-                )} */}
-                <br />
-                {/* <input
-                    type="file"
-                    name="myImage"
-                    onChange={(event) => {
-                        console.log(event.target.files[0]);
-                        setSelectedImage(event.target.files[0]);
-                    }}
-                /> */}
+                    <Button  label="Submit" />
+                </Dialog>
             </div>
 
-            <InputText value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
-            <InputText value={desc} onChange={(e) => setDesc(e.target.value)} placeholder='Password' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
+            <br></br>
+            <Button className='p-button p-button-sm' label="Change Email" onClick={() => onClick('displayBasic2')} />
+            <br></br>
+            <Button className='p-button p-button-sm' label="Change Password" onClick={() => onClick('displayBasic')} />
+            <Dialog header="Change password" visible={displayBasic} style={{ width: '50vw' }} onHide={() => onHide('displayBasic')}>
+                <small  >Enter your current password</small><br />
+                <InputText type="password" placeholder='Current Password' className=' p-inputtext p-inputtext-sm w-7' /><br />
+                <br />
+                <small  >Enter your new password</small><br />
+                <InputText type="password"  placeholder='New Password' className=' p-inputtext p-inputtext-sm w-7' /><br />
+                <br />
+                <Button className='p-button p-button-sm' label="Submit"  />
+            </Dialog>
+            <br></br>
+    
+          
 
             <div className='text-right lg:w-20rem md:w-20rem w-21rem'>
                 <Button icon="pi pi-save" label="Save" className='p-button p-button-sm py-2 px-2' />

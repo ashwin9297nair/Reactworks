@@ -4,14 +4,15 @@ import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import InvestorTable from './InvestorTable';
 let data = [
-    { "email": "ash@gmail.com", "Name": "Ashwin" },
-    { "email": "bsh@gmail.com", "Name": "PRet" },
-    { "email": "csh@gmail.com", "Name": "Anikt" },
-    { "email": "dsh@gmail.com", "Name": "Ashutsh" },
-    { "email": "esh@gmail.com", "Name": "virat" },
-    { "email": "fsh@gmail.com", "Name": "Rahul" },
-    { "email": "gsh@gmail.com", "Name": "Yash" },
+    { "email": "ash@gmail.com", "name": "Ashwin" },
+    { "email": "bsh@gmail.com", "name": "PRet" },
+    { "email": "csh@gmail.com", "name": "Anikt" },
+    { "email": "dsh@gmail.com", "name": "Ashutsh" },
+    { "email": "esh@gmail.com", "name": "virat" },
+    { "email": "fsh@gmail.com", "name": "Rahul" },
+    { "email": "gsh@gmail.com", "name": "Yash" },
 
 ]
 
@@ -46,35 +47,20 @@ const InvestorAccess = () => {
             </div>
 
             <Dropdown value={selectedCity1} options={cities} onChange={onCityChange} optionLabel="name" placeholder="Fund" className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
-            <InputText value={address} onChange={(e) => setAddress(e.target.value)} placeholder='Address' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
-            <InputText value={email} onChange={(e) => setAddress(e.target.value)} placeholder='Add Email' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
-            <InputText value={name} onChange={(e) => setAddress(e.target.value)} placeholder='Add Name' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' /><br />
 
+            <InputText placeholder='Investor Email' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' />
+
+            <InputText placeholder='Investor Name' className='p-inputtext-sm mb-3 lg:w-20rem md:w-20rem w-full' />
             <div className='text-right lg:w-20rem md:w-20rem w-21rem'>
-                <Button label="Add" icon="pi pi-plus" className='p-button p-button-sm py-2 px-2' />
+                <Button label="Add"  icon="pi pi-plus" className='p-button p-button-sm py-2 px-2' />
             </div>
-
-            <div>
-                <div className="card text-sm">
-                    <DataTable value={data} showGridlines responsiveLayout="scroll" className='p-datatable-sm text-sm mt-3'>
-                        <Column field="email" header="Email"></Column>
-                        <Column field="Name" header="Name"></Column>
-                    </DataTable>
-                </div>
-            </div>
-            <br />
-            <div className='text-right'>
-                <Button label="Save" icon="pi pi-save" className='p-button font-light p-button-sm py-2 px-2' />
-            </div>
-
-            <br />
-
-
-
-
-
-
+            <InvestorTable data={data}    />
         </>
+
+
+
+
+
     )
 
 
