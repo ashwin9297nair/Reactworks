@@ -1,0 +1,106 @@
+
+.ps-setting-box {
+ background-color: #f3f3ff;
+ padding: 20px;
+ text-align: left;
+ border-radius: 0px;
+ border-top: solid 1px #dedffc;
+}
+
+.ps-setting-box-white {
+ background-color: #ffffff;
+ padding: 20px;
+ text-align: left;
+ border-radius: 0px;
+ border-top: solid 1px #dedffc;
+}
+
+.ps-setting-box-white:hover {
+ background-color: #f3f3ff;
+}
+.ps-buttonCustom {
+ width: 50px !important;
+ height: 50px !important;
+ margin-right: 5px;
+}
+
+.ps-customMarginLeft {
+ /* margin-left: 140px; */
+ margin-left: 80px;
+}
+.ps-customImg {
+ width: 100%;
+ height: auto;
+ padding: 8px;
+}
+
+.p-fieldset {
+ border: 1px solid #dee2e6;
+ background: #ffffff;
+ color: #495057;
+ border-radius: 6px;
+}
+.p-fieldset .p-fieldset-legend {
+ font-size: 15px;
+ border: 0px solid #e6dede;
+ color: #5e5e5e;
+ background: #ffffff;
+ font-weight: 600;
+ padding: 0px 6px !important;
+ border-radius: 6px;
+}
+
+.p-button-label {
+ font-weight: 600;
+}
+
+.imagecircle {
+ border-radius: 50%;
+ width: 80px;
+ height: 80px; 
+ border: solid 1px #d4d4d4;
+}
+
+.imagecircletrial {
+ border-radius: 50%;
+ width: 100px;
+ height: 100px; 
+ border: solid 1px #d4d4d4;
+}
+
+.p-dialog .p-dialog-header .p-dialog-title {
+ font-weight: 600;
+ font-size: 1.2rem;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
+ padding: 0.5rem 0.5rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+ .landing-img {
+  width: 100%;
+  height: auto;
+  padding: 0px 0 20px 0;
+ }
+
+ .footer {
+  text-align: left !important;
+  margin-left: 6px;
+ }
+
+ .ps-border-left {
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+ }
+
+ .ps-customImg {
+  width: 50%;
+  height: auto;
+  padding: 0px;
+ }
+
+}

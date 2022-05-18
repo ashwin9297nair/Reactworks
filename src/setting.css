@@ -1,61 +1,71 @@
-
 .ps-setting-box {
- background-color: #f3f3ff;
- padding: 20px;
- text-align: left;
- border-radius: 0px;
- border-top: solid 1px #dedffc;
+    background-color: #f3f3ff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0;
+    border-top: solid 1px #dedffc;
 }
 
 .ps-setting-box-white {
- background-color: #ffffff;
- padding: 20px;
- text-align: left;
- border-radius: 0px;
- border-top: solid 1px #dedffc;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0;
+    border-top: solid 1px #dedffc;
+}
+.ps-fixed-col {
+    position: sticky !important;
+    top: 20px !important;
 }
 
-.ps-setting-box-white:hover {
- background-color: #f3f3ff;
+.imagecirclesmall {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /* width and height can be anything, as long as they're equal */
 }
+
+/* .ps-setting-box-white:hover {
+ background-color: #f3f3ff;
+} */
 .ps-buttonCustom {
- width: 50px !important;
- height: 50px !important;
- margin-right: 5px;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 5px;
 }
 
 .ps-customMarginLeft {
- /* margin-left: 140px; */
- margin-left: 80px;
+    /* margin-left: 140px; */
+    margin-left: 80px;
 }
 .ps-customImg {
- width: 100%;
- height: auto;
- padding: 8px;
+    width: 100%;
+    height: auto;
+    padding: 8px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and(max-width: 768px) {
 
- .landing-img {
-  width: 100%;
-  height: auto;
-  padding: 0px 0 20px 0;
- }
+    .landing-img {
+        width: 100%;
+        height: auto;
+        padding: 0 0 20px;
+    }
 
- .footer {
-  text-align: left !important;
-  margin-left: 6px;
- }
+    .footer {
+        text-align: left !important;
+        margin-left: 6px;
+    }
 
- .ps-border-left {
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 0px;
- }
+    .ps-border-left {
+        border-top-right-radius: 6px;
+        border-bottom-left-radius: 0;
+    }
 
- .ps-customImg {
-  width: 50%;
-  height: auto;
-  padding: 0px;
- }
+    .ps-customImg {
+        width: 50%;
+        height: auto;
+        padding: 0;
+    }
 
 }

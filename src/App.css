@@ -11,11 +11,25 @@
 	transition: all .3s ease-in-out;
   border-radius: 4px;
 }
+.italic {
+  font-style: italic;
+  font-weight: bold;
+}
 
 .custom-btn1:hover {
   background: #030b5d;
   text-decoration: none;
   color: #fff;
+}
+.p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  color: #343a40;
+  padding: 1rem 0.3rem 0.1rem 1.5rem;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+ }
+ .visibilitycheck {
+  visibility: hidden;
 }
 
 .custom-btn2 {
@@ -41,6 +55,13 @@
   border-radius: 50%;
   width: 80px;
   height: 80px; 
+  /* width and height can be anything, as long as they're equal */
+}
+
+.imagecircletrial {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; 
   /* width and height can be anything, as long as they're equal */
 }
 
